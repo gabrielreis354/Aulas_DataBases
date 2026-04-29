@@ -1,6 +1,6 @@
 services:
   mongo:
-    image: mongo:latest
+    image: mongo:6.0
     container_name: mongo-test
     restart: unless-stopped
     ports:
